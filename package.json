@@ -1,0 +1,8 @@
+{
+  "name": "pulse-x-publico",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Panel para comparar métricas visibles de publicaciones públicas de X",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
