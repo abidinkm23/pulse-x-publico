@@ -3,7 +3,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const PORT = process.env.PORT || 3000;
-const ROOT = path.join(__dirname, "public");
+const ROOT = __dirname;
 
 function send(res, status, body, type="application/json; charset=utf-8") {
   res.writeHead(status, {"Content-Type": type, "Access-Control-Allow-Origin": "*"});
